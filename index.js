@@ -7,13 +7,14 @@ const cli = meow(`
         $ ez-dotenv <filelocation> --read=ENV_VAR
 
     Options
-        --filename, -f       Path to your .env file.
+        --filename, -f       Path to your .env file. default "./.env"
         --read, -r             Read the given variable from your .env file, if any. Empty string if none.
-        --readAll, -t         Reads all the variables in your .env file.
+        --readAll, -t         Reads all the variables in your .env file.  default "false"
         --add, -a              Adds a variable to the end of your .env file
         --remove, -d        Removes the given variable from your .env file
 
     Examples
+        $ ez-dotenv -f ./.env
         $ ez-dotenv -r FOO
         $ ez-dotenv -t
         $ ez-dotenv -a FOO bar
