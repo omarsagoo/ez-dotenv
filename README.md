@@ -1,7 +1,6 @@
 # ez-dotenv
-
-
-📋 npm module that **allows easy reading and writing** of  **environment variables** of a .env file!!
+[![NPM downloads](https://img.shields.io/npm/dm/ez-dotenv.svg?style=flat)](https://npmjs.org/package/ez-dotenv)
+npm module that **allows easy reading and writing** of  **environment variables** of a .env file!!
 
 ## Features
 
